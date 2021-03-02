@@ -12,14 +12,14 @@
 
 grid-template-areas: 
 
-"he" "he" "he" "he" "he"
-"al" "al" "al" "al" "na"
-"al" "al" "al" "al" "na"
-"al" "al" "al" "al" "na"
-"al" "al" "al" "al" "na"
-"al" "al" "al" "al" "na"
-"al" "al" "al" "al" "na"
-"fo" "fo" "fo" "fo" "fo"
+"he he he he he"
+"se se se se na"
+"se se se se na"
+"se se se se na"
+"se se se se na"
+"se se se se na"
+"se se se se na"
+"fo fo fo fo fo"
 
 
 
@@ -39,8 +39,8 @@ grid-gap: 2px;
     grid-area: na;
     background: salmon;
 }
-.article{
-    grid-area: al;
+.section{
+    grid-area: se;
     background:green;
 }
 .footer{
