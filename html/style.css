@@ -1,0 +1,58 @@
+*{
+   margin: 0%;
+}
+
+
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:200vh;
+}
+
+.header{
+    display: flex;
+   flex-wrap:wrap;
+   justify-content: flex-end;
+   align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    background: cornflowerblue;
+    
+}
+
+
+.header div{
+    list-style-type: none;
+   padding: 3px;
+   margin: 3px;
+   height: 50px;
+   width:100px;
+   background: whitesmoke
+}
+
+
+img{
+    align-self: center;
+    height: 180px;
+    width: 180px;
+    margin-right: 650px;
+}
+
+.article{
+width: 72.2%;
+height:100%;
+background: skyblue;
+}
+
+.aside{
+    width: 400px;
+    height: 100%;
+    background: steelblue;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background: greenyellow;
+}
