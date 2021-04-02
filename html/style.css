@@ -38,11 +38,12 @@
 
 }
 
-img{
+.header h1{
     align-self: center;
-    height: 80%;
-    width: 30%;
-    margin-left: 5%;
+    height: 5%;
+    width: 20%;
+    margin-right: 10%;
+    font-size: 50px;
 }
 
 
@@ -107,7 +108,7 @@ grid-template-rows: 1fr 1fr 1fr;
 
 
 .footer{
-    height: 200px;
+    height: 8%;
     width: 100%;
     background: #474B4F;
    
@@ -117,15 +118,16 @@ grid-template-rows: 1fr 1fr 1fr;
     .header{
         width: 100%;
         height: 50%;
+       
     }
-    img{
-        height: 30%;
-        margin-left: 5%;
+    .header h1 {
+     margin-right: 75%;
     }
    .header div{
        display: block;
        width: 100%;
        height: 10%;
+       margin-top: 1%;
    }
 
    .article{
@@ -134,26 +136,91 @@ grid-template-rows: 1fr 1fr 1fr;
    .aside {
        width: 20%;
    }
+   
   }
 
 
 /* sida 2*/
 
-.article2{
+/*.article2{
 display:flex;
 justify-content: center;
 width: 100%;
 height:100%;
 background:  #222629;
 }
+*/
+.article2{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+ width: 100%;
+height:100%;
+background:  #222629;
+}
+.article2 .kursbilder{
+    margin-top: 10%;
+    width: 80%;
+    height: 40%;
 
+}
 .article2 img{
-height: 50%;
-width: 50%;
+
+height: 100%;
+width: 95%;
+}
+.article2 h3{
+   margin-top: -60%;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .article2 h3{
+        margin-top: -80%;
+    }
 }
 
 
 
+/* sida 3*/
+
+.article3{
+    display:flex;
+    width: 100%;
+    height:100%;
+    background:  #222629;
+}
+
+.article3 ul li{
+    margin-top: 10%;
+}
+
+/* sida 4 */
+.article4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    background:  #222629;
+}
+.article4 div{
+    margin-top: 5%;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+}
+.article4 img{
+    height: 100%;
+    width: 100%;
+
+}
+.article4 div input{
+    width: 20%;
+    height: 5%;
+   margin-left: 40%;
+
+}
 
 
 
