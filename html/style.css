@@ -2,57 +2,159 @@
    margin: 0%;
 }
 
+/*Startsida*/
 
 .wrapper{
     display:flex;
     flex-wrap: wrap;
     width: 100%;
-    height:200vh;
+    height:150vh;
 }
+
 
 .header{
     display: flex;
    flex-wrap:wrap;
    justify-content: flex-end;
-   align-items: flex-end;
-    height: 200px;
+   align-items: center;
+    height: 15%;
     width: 100%;
-    background: cornflowerblue;
+    background: #61892F;
     
 }
-
 
 .header div{
     list-style-type: none;
    padding: 3px;
    margin: 3px;
-   height: 50px;
-   width:100px;
-   background: whitesmoke
-}
+   height: 25%;
+   width:10%;
+   border-radius: 15px;
+   margin-top: 5%;
+   margin-right: 15px;
+   
+   background: silver;
+   box-shadow: 5px 5px grey;
 
+}
 
 img{
     align-self: center;
-    height: 180px;
-    width: 180px;
-    margin-right: 650px;
+    height: 80%;
+    width: 30%;
+    margin-left: 5%;
 }
 
+
 .article{
-width: 72.2%;
+display: grid;
+width: 80%;
 height:100%;
-background: skyblue;
+background:  #222629;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.article img{
+  
+    height: 170%;
+    width: 95%;
+    margin-top: -25%;
+    margin-left: 2%;
+}
+
+.article h1{
+    margin-left: 10%;
+    
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+}
+.article h4{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: whitesmoke;
 }
 
 .aside{
-    width: 400px;
+    display: grid;
+    width: 20%;
     height: 100%;
-    background: steelblue;
+    background: #86C232;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
+
+.aside img{
+    height: 80%;
+    width: 80%;
+    margin-left: 5%;
+   margin-top: 5%;
+}
+
+.nyheter{
+    margin-top: 10%;
+}
+
+.nyheter2{
+    margin-top:-150px;
+}
+.aside div{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
 
 .footer{
     height: 200px;
     width: 100%;
-    background: greenyellow;
+    background: #474B4F;
+   
 }
+@media only screen and (max-width: 768px) {
+    /* För mobilen */
+    .header{
+        width: 100%;
+        height: 50%;
+    }
+    img{
+        height: 30%;
+        margin-left: 5%;
+    }
+   .header div{
+       display: block;
+       width: 100%;
+       height: 10%;
+   }
+
+   .article{
+       width: 80%;
+   }
+   .aside {
+       width: 20%;
+   }
+  }
+
+
+/* sida 2*/
+
+.article2{
+display:flex;
+justify-content: center;
+width: 100%;
+height:100%;
+background:  #222629;
+}
+
+.article2 img{
+height: 50%;
+width: 50%;
+}
+
+
+
+
+
+
+
